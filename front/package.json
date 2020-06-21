@@ -1,0 +1,43 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "My world-class Nuxt.js project",
+  "author": "aduker",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "element-ui": "^2.4.11",
+    "lodash": "^4.17.15",
+    "marked": "^0.8.0",
+    "md5": "^2.2.1",
+    "nuxt": "^2.0.0",
+    "vue-i18n": "^7.3.2"
+  },
+  "config": {
+    "nuxt": {
+      "host": "localhost",
+      "port": "3000"
+    }
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "jest": "^24.1.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "vue-jest": "^4.0.0-0"
+  }
+}
