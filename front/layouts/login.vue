@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="less">
 .login-container {
   .el-input {
     display: inline-block;
